@@ -12,6 +12,8 @@ export const getCoins = createAsyncThunk('getCoins', async () => {
         name: item.name,
         current_price: item.current_price,
         icon_url: item.image,
+        ath: item.ath,
+        atl: item.atl,
       };
     });
     return currency;
