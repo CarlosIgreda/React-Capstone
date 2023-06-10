@@ -20,18 +20,26 @@ const Metrics = () => {
       <div className="coin-symbol">{chosenCoin.coinSymbol}</div>
       <img src={chosenCoin.coinImage} alt={chosenCoin.coinName} />
       <div className="coin-name">{chosenCoin.coinName}</div>
-      <div className="coin-price">
-        Current Price:&nbsp;
-        {chosenCoin.coinPrice}
-      </div>
-      <div className="coin-ath">
-        ATH:&nbsp;
-        {chosenCoin.coinAth}
-      </div>
-      <div className="coin-atl">
-        ATL:&nbsp;
-        {chosenCoin.coinAtl}
-      </div>
+      <ul className="ul">
+        <li className="li">
+          <div className="coin-price">
+            Current Price:&nbsp;
+            {chosenCoin.coinPrice}
+          </div>
+        </li>
+        <li className="li">
+          <div className="coin-ath">
+            ATH:&nbsp;
+            {chosenCoin.coinAth}
+          </div>
+        </li>
+        <li className="li">
+          <div className="coin-atl">
+            ATL:&nbsp;
+            {chosenCoin.coinAtl}
+          </div>
+        </li>
+      </ul>
     </div>
   );
 };
