@@ -90,7 +90,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd [my-folder]
-  git clone "putHereRepoLink"
+  git clone https://github.com/CarlosIgreda/React-Capstone.git
 ```
 ### Install
 
