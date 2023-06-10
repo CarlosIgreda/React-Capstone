@@ -17,6 +17,8 @@ test('renders coins list correctly', () => {
           icon_url: 'btc-icon-url',
           name: 'Bitcoin',
           current_price: 50000,
+          ath: 70000,
+          atl: 1000,
         },
       },
       loading: false,

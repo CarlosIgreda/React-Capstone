@@ -13,6 +13,8 @@ test('renders metrics correctly', () => {
     coinImage: 'btc-image-url',
     coinName: 'Bitcoin',
     coinPrice: 50000,
+    coinAth: 70000,
+    coinAtl: 1000,
   });
 
   const { container } = render(<Metrics />);

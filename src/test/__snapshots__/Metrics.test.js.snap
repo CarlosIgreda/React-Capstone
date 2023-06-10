@@ -24,5 +24,17 @@ exports[`renders metrics correctly 1`] = `
     Current Price: 
     50000
   </div>
+  <div
+    class="coin-ath"
+  >
+    ATH: 
+    70000
+  </div>
+  <div
+    class="coin-atl"
+  >
+    ATL: 
+    1000
+  </div>
 </div>
 `;
