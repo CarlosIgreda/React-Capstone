@@ -24,6 +24,14 @@ const Metrics = () => {
         Current Price:&nbsp;
         {chosenCoin.coinPrice}
       </div>
+      <div className="coin-ath">
+        ATH:&nbsp;
+        {chosenCoin.coinAth}
+      </div>
+      <div className="coin-atl">
+        ATL:&nbsp;
+        {chosenCoin.coinAtl}
+      </div>
     </div>
   );
 };

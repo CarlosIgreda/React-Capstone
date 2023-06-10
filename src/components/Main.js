@@ -43,12 +43,14 @@ const CoinsList = () => {
     setsearch(event.target.value);
   };
 
-  const clickHandler = (coinSymbol, coinImage, coinName, coinPrice) => {
+  const clickHandler = (coinSymbol, coinImage, coinName, coinPrice, coinAth, coinAtl) => {
     const payload = {
       coinSymbol,
       coinImage,
       coinName,
       coinPrice,
+      coinAth,
+      coinAtl,
     };
     dispatch(asset(payload));
     navigate('/metrics');
@@ -90,6 +92,8 @@ const CoinsList = () => {
               cryptoAsset.icon_url,
               cryptoAsset.name,
               cryptoAsset.current_price,
+              cryptoAsset.ath,
+              cryptoAsset.atl,
             )}
             onKeyDown={(event) => {
               if (event.key === 'Enter' || event.key === ' ') {
@@ -98,6 +102,8 @@ const CoinsList = () => {
                   cryptoAsset.icon_url,
                   cryptoAsset.name,
                   cryptoAsset.current_price,
+                  cryptoAsset.ath,
+                  cryptoAsset.atl,
                 );
               }
             }}
