@@ -18,23 +18,39 @@ exports[`renders metrics correctly 1`] = `
   >
     Bitcoin
   </div>
-  <div
-    class="coin-price"
+  <ul
+    class="ul"
   >
-    Current Price: 
-    50000
-  </div>
-  <div
-    class="coin-ath"
-  >
-    ATH: 
-    70000
-  </div>
-  <div
-    class="coin-atl"
-  >
-    ATL: 
-    1000
-  </div>
+    <li
+      class="li"
+    >
+      <div
+        class="coin-price"
+      >
+        Current Price: 
+        50000
+      </div>
+    </li>
+    <li
+      class="li"
+    >
+      <div
+        class="coin-ath"
+      >
+        ATH: 
+        70000
+      </div>
+    </li>
+    <li
+      class="li"
+    >
+      <div
+        class="coin-atl"
+      >
+        ATL: 
+        1000
+      </div>
+    </li>
+  </ul>
 </div>
 `;
