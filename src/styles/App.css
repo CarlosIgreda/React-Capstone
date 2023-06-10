@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+html,
+.body {
+  height: 100%;
+  margin: 0;
+}
+
+.body {
+  padding: 1rem;
+  background-color: #ec4d8b;
+}
+
+.logo-and-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-logo {
+  width: 12rem;
+  display: block;
+  margin: auto;
+}
+
+.nav-container {
+  background-color: #ec4d8b;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin: 1.5rem 0;
+}
+
+.loading-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
+main {
+  padding-bottom: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.coins-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1rem;
+}
+
+.coin {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  border: 2px solid #4f4f4e;
+  border-radius: 1rem;
+}
+
+.coin:hover {
+  background-color: #c24d7a;
+}
+
+.coin-symbol {
+  text-align: center;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.coin-image {
+  width: 6rem;
+  height: 6rem;
+}
+
+.coin-name {
+  text-align: center;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.metrics {
+  margin-top: 3rem;
+}
+
+.settings-icon,
+.back-icon {
+  cursor: pointer;
+  color: #4f4f4e;
+}
