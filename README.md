@@ -66,8 +66,8 @@ This React capstone project is about building a mobile web application to check 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Live site
-- Loom video
+- [Live site](https://coingecko-4xi2.onrender.com/metrics)
+- [Loom video](https://www.loom.com/share/334c5aca12bc46f48e7bd8a587e0dc19)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
