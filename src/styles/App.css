@@ -7,6 +7,7 @@
   font-weight: bold;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
+  list-style: none;
 }
 
 html,
@@ -119,4 +120,29 @@ main {
 .back-icon {
   cursor: pointer;
   color: #4f4f4e;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 0;
+}
+
+.li {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.li:nth-child(2n) {
+  background-color: #aa446b;
+}
+
+.li:nth-child(2n+1) {
+  background-color: #ee0d63;
 }
