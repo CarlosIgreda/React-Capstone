@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetches coins correctly 1`] = `
+Array [
+  Object {
+    "meta": Object {
+      "arg": undefined,
+      "requestId": "sbh46FBmC4ReVc12YiQ0B",
+      "requestStatus": "pending",
+    },
+    "payload": undefined,
+    "type": "getCoins/pending",
+  },
+  Object {
+    "meta": Object {
+      "arg": undefined,
+      "requestId": "sbh46FBmC4ReVc12YiQ0B",
+      "requestStatus": "fulfilled",
+    },
+    "payload": Object {
+      "ada": Object {
+        "current_price": 0.262873,
+        "icon_url": "https://assets.coingecko.com/coins/images/975/large/cardano.png?1547034860",
+        "name": "Cardano",
+        "symbol": "ada",
+      },
+      "avax": Object {
+        "current_price": 11.59,
+        "icon_url": "https://assets.coingecko.com/coins/images/12559/large/Avalanche_Circle_RedWhite_Trans.png?1670992574",
+        "name": "Avalanche",
+        "symbol": "avax",
+      },
+      "bnb": Object {
+        "current_price": 237.27,
+        "icon_url": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1644979850",
+        "name": "BNB",
+        "symbol": "bnb",
+      },
+      "btc": Object {
+        "current_price": 25642,
+        "icon_url": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
+        "name": "Bitcoin",
+        "symbol": "btc",
+      },
+      "busd": Object {
+        "current_price": 1.004,
+        "icon_url": "https://assets.coingecko.com/coins/images/9576/large/BUSD.png?1568947766",
+        "name": "Binance USD",
+        "symbol": "busd",
+      },
+      "dai": Object {
+        "current_price": 1.005,
+        "icon_url": "https://assets.coingecko.com/coins/images/9956/large/4943.png?1636636734",
+        "name": "Dai",
+        "symbol": "dai",
+      },
+      "doge": Object {
+        "current_price": 0.061276,
+        "icon_url": "https://assets.coingecko.com/coins/images/5/large/dogecoin.png?1547792256",
+        "name": "Dogecoin",
+        "symbol": "doge",
+      },
+      "dot": Object {
+        "current_price": 4.47,
+        "icon_url": "https://assets.coingecko.com/coins/images/12171/large/polkadot.png?1639712644",
+        "name": "Polkadot",
+        "symbol": "dot",
+      },
+      "eth": Object {
+        "current_price": 1742.07,
+        "icon_url": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880",
+        "name": "Ethereum",
+        "symbol": "eth",
+      },
+      "leo": Object {
+        "current_price": 3.52,
+        "icon_url": "https://assets.coingecko.com/coins/images/8418/large/leo-token.png?1558326215",
+        "name": "LEO Token",
+        "symbol": "leo",
+      },
+      "ltc": Object {
+        "current_price": 76.58,
+        "icon_url": "https://assets.coingecko.com/coins/images/2/large/litecoin.png?1547033580",
+        "name": "Litecoin",
+        "symbol": "ltc",
+      },
+      "matic": Object {
+        "current_price": 0.586367,
+        "icon_url": "https://assets.coingecko.com/coins/images/4713/large/matic-token-icon.png?1624446912",
+        "name": "Polygon",
+        "symbol": "matic",
+      },
+      "shib": Object {
+        "current_price": 0.00000675,
+        "icon_url": "https://assets.coingecko.com/coins/images/11939/large/shiba.png?1622619446",
+        "name": "Shiba Inu",
+        "symbol": "shib",
+      },
+      "sol": Object {
+        "current_price": 15.18,
+        "icon_url": "https://assets.coingecko.com/coins/images/4128/large/solana.png?1640133422",
+        "name": "Solana",
+        "symbol": "sol",
+      },
+      "steth": Object {
+        "current_price": 1740.72,
+        "icon_url": "https://assets.coingecko.com/coins/images/13442/large/steth_logo.png?1608607546",
+        "name": "Lido Staked Ether",
+        "symbol": "steth",
+      },
+      "trx": Object {
+        "current_price": 0.069243,
+        "icon_url": "https://assets.coingecko.com/coins/images/1094/large/tron-logo.png?1547035066",
+        "name": "TRON",
+        "symbol": "trx",
+      },
+      "usdc": Object {
+        "current_price": 0.999014,
+        "icon_url": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389",
+        "name": "USD Coin",
+        "symbol": "usdc",
+      },
+      "usdt": Object {
+        "current_price": 0.999817,
+        "icon_url": "https://assets.coingecko.com/coins/images/325/large/Tether.png?1668148663",
+        "name": "Tether",
+        "symbol": "usdt",
+      },
+      "wbtc": Object {
+        "current_price": 25712,
+        "icon_url": "https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1548822744",
+        "name": "Wrapped Bitcoin",
+        "symbol": "wbtc",
+      },
+      "xrp": Object {
+        "current_price": 0.500904,
+        "icon_url": "https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1605778731",
+        "name": "XRP",
+        "symbol": "xrp",
+      },
+    },
+    "type": "getCoins/fulfilled",
+  },
+]
+`;

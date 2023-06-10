@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders metrics correctly 1`] = `
+<div
+  class="coin metrics"
+>
+  <div
+    class="coin-symbol"
+  >
+    BTC
+  </div>
+  <img
+    alt="Bitcoin"
+    src="btc-image-url"
+  />
+  <div
+    class="coin-name"
+  >
+    Bitcoin
+  </div>
+  <div
+    class="coin-price"
+  >
+    Current Price: 
+    50000
+  </div>
+</div>
+`;

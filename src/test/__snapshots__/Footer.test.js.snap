@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders footer correctly 1`] = `
+<footer
+  class="footer"
+>
+  Created by Carlos Igreda under MIT License.
+</footer>
+`;
